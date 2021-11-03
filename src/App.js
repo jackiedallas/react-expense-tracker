@@ -1,8 +1,11 @@
 function App() {
   return (
     <div>
-      <h2>React Journey Initialized</h2>
+      <h1>React Journey Initialized</h1>
+	    <p>DOM test DOM test DOM test!!!!</p>
     </div>
+	  
+	  
   );
 }
 
