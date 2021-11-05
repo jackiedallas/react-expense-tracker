@@ -26,7 +26,7 @@ function App() {
 	
   return (
     <div>
-      <h1>React Journey Initialized</h1>
+      <h1 className="fancy-header">React Journey Initialized</h1>
 	    
 	   <Expenses items={expenses}/> {/* you have to declare items to equal expenses to import expenses from expenses.js, or whatever you named the prop*/}
 	   
