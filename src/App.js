@@ -1,3 +1,4 @@
+import React from 'react';
 import Expenses from './components/Expenses';
 
 function App() {
@@ -24,14 +25,19 @@ function App() {
 		}
 	];
 	
-  return (
-    <div>
-      <h1 className="fancy-header">My Expense Tracker React.js</h1>
+  return React.createElement(
+	  'div',
+	   {},
+	    React.createElement('h2', {}, "My Expense Tracker React.js"), 
+		React.createElement(Expenses, {items: expenses})
+		);
+    // <div>
+    //   <h1 className="fancy-header">My Expense Tracker React.js</h1>
 	    
-	   <Expenses items={expenses}/> {/* you have to declare items to equal expenses to import expenses from expenses.js, or whatever you named the prop*/}
+	//    <Expenses items={expenses}/> {/* you have to declare items to equal expenses to import expenses from expenses.js, or whatever you named the prop*/}
 	   
-    </div>
-  );
+    // </div>
+//   );
 }
 
 

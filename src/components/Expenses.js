@@ -1,3 +1,4 @@
+import React from 'react';
 import ExpenseItem from './ExpenseItem';
 import './Expenses.css';
 
@@ -27,6 +28,7 @@ function Expenses(props) {
 			</ExpenseItem>
 		</div>
 	)
+	
 	
 }
 
